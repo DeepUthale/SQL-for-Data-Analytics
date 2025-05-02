@@ -1,15 +1,15 @@
-# 			WHERE					#			 HAVING
+#           WHERE			#	    HAVING
 -- Can be used with or without		-- Can only be used with GROUP 
--- using GROUP BY.					-- BY.
+-- using GROUP BY.			-- BY.
 
 -- It is used in row operations.	-- It is used in multiple row
-									-- operations.
+					-- operations.
 
--- It cannot use aggregate			-- It can use aggregate functions.
+-- It cannot use aggregate		- It can use aggregate functions.
 -- functions.
 
 -- It can be used with all DML		-- It can only be used with 
--- commands.						-- SELECT statement.
+-- commands.				-- SELECT statement.
 
 SELECT * FROM titanic;
 
