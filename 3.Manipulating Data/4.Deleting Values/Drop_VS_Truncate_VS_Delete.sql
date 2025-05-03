@@ -1,15 +1,15 @@
-# Aspect				TRUNCATE				DELETE					DROP
+# Aspect				        TRUNCATE				      DELETE					      DROP
 #
-# Description		Removes all Data		Removes specific		Removes an Entire	
-#					from a Table.			Rows from a Table.		Table.
+# Description		    Removes all Data		Removes specific		  Removes an Entire	
+#					          from a Table.			  Rows from a Table.	  Table.
 #
-# Rollback			Cannot be Rolled		Can be Rolled Back.		Cannot be Rolled
-#					Back.											back.
+# Rollback			    Cannot be Rolled	  Can be Rolled Back.		Cannot be Rolled
+#					          Back.											                back.
 #
-# Where Clause		Not Applicable.			Optional.				Not applicable.
+# Where Clause	    Not Applicable.		  Optional.				      Not applicable.
 #
-# Table Structure	Preserve Table			Preserve Table			Removes Table
-#					Structure.				Structure.				Structure.
+# Table Structure	  Preserve Table			Preserve Table			  Removes Table
+#					          Structure.				  Structure.				    Structure.
 
 SELECT * FROM employees;
 
