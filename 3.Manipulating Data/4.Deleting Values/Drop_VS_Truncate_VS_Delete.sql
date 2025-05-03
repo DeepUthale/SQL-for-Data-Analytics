@@ -1,6 +1,6 @@
 # Aspect				        TRUNCATE				      DELETE					      DROP
 #
-# Description		    Removes all Data		Removes specific		  Removes an Entire	
+# Description		    Removes all Data		Removes specific		  Removes an Entire
 #					          from a Table.			  Rows from a Table.	  Table.
 #
 # Rollback			    Cannot be Rolled	  Can be Rolled Back.		Cannot be Rolled
